@@ -4,12 +4,20 @@
 \name{ggpmthemes-package}
 \alias{ggpmthemes}
 \alias{ggpmthemes-package}
-\title{ggpmthemes: What the Package Does (One Line, Title Case)}
+\title{ggpmthemes: Personal Themes for ggplot2}
 \description{
-What the package does (one paragraph).
+Compilation of different ggplot2 themes.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/PMassicotte/ggpmthemes}
+  \item Report bugs at \url{https://github.com/PMassicotte/ggpmthemes/issues}
+}
+
 }
 \author{
-\strong{Maintainer}: First Last \email{first.last@example.com} (YOUR-ORCID-ID)
+\strong{Maintainer}: Philippe Massicotte \email{pmassicotte@hotmail.com}
 
 }
 \keyword{internal}

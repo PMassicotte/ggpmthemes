@@ -1,7 +1,14 @@
 .onAttach <- function(libname, pkgname) {
-  if (.Platform$OS.type == "windows") { # nocov start
+
+  # https://github.com/wch/extrafont/issues/44
+  pdfFonts <- grDevices::pdfFonts
+  postscriptFonts <- grDevices::postscriptFonts
+
+  if (.Platform$OS.type == "windows") {
+    if (interactive()) packageStartupMessage("Registering Windows fonts with R")
     extrafont::loadfonts("win", quiet = TRUE)
   } else {
+    if (interactive()) packageStartupMessage("Registering PDF & PostScript fonts with R")
     extrafont::loadfonts("pdf", quiet = TRUE)
     extrafont::loadfonts("postscript", quiet = TRUE)
   }
