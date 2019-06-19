@@ -24,6 +24,10 @@ theme_poppins <-
         base_family = base_family,
         base_line_size = base_line_size,
         base_rect_size = base_rect_size
+      ) +
+      theme(
+        strip.text = element_text(colour = "#414141"),
+        strip.background = element_rect(fill = "#CFCFCF")
       )
 
   }

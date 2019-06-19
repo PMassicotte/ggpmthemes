@@ -33,7 +33,7 @@ ggplot(ToothGrowth, aes(x = dose, y = len, group = dose)) +
   theme_poppins()
 ```
 
-<img src="man/figures/README-example-1.png" width="100%" />
+<img src="man/figures/README-example-1.svg" width="100%" />
 
 Works also with `geom_text()`
 
@@ -43,7 +43,7 @@ ggplot(mtcars, aes(wt, mpg, label = rownames(mtcars))) +
   theme_poppins()
 ```
 
-<img src="man/figures/README-unnamed-chunk-2-1.png" width="100%" />
+<img src="man/figures/README-unnamed-chunk-2-1.svg" width="100%" />
 
 Please note that the ‘ggpmthemes’ project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
