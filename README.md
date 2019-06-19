@@ -7,7 +7,7 @@
 
 <!-- badges: end -->
 
-Simple R package with custom ggplot2 templates.
+Simple R package with custom ggplot2 themes.
 
 ## Installation
 
