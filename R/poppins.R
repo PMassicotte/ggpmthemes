@@ -21,6 +21,7 @@ theme_poppins <-
 
     tm <-
       theme_light(
+        base_size = base_size,
         base_family = base_family,
         base_line_size = base_line_size,
         base_rect_size = base_rect_size
