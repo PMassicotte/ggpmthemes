@@ -3,9 +3,9 @@
   # https://github.com/wch/extrafont/issues/44
   pdfFonts <- grDevices::pdfFonts
   postscriptFonts <- grDevices::postscriptFonts
-  windowsFonts <- grDevices::windowsFonts
 
   if (.Platform$OS.type == "windows") {
+    windowsFonts <- grDevices::windowsFonts
     if (interactive()) packageStartupMessage("Registering Windows fonts with R")
     extrafont::loadfonts("win", quiet = TRUE)
   } else {
