@@ -28,7 +28,10 @@ theme_poppins <-
       ) +
       theme(
         strip.text = element_text(colour = "#414141"),
-        strip.background = element_rect(fill = "#CFCFCF")
+        strip.background = element_rect(fill = "#CFCFCF"),
+        plot.title = element_text(size = base_size * 1.8, hjust = 0, vjust = 1, face = "bold", margin = margin(b = half_line * 1.2)),
+        plot.subtitle = element_text(size = base_size, hjust = 0, vjust = 1, margin = margin(b = half_line * 0.9)),
+        plot.caption = element_text(size = rel(0.9), hjust = 1, vjust = 1, margin = margin(t = half_line * 0.9))
       )
 
   }
