@@ -1,7 +1,7 @@
-#' A ggplot2 theme based on the Google Poppins font.
+#' A ggplot2 theme based on the Google Exo font.
 #'
 #' @param base_size Font size. Default at 12 pts.
-#' @param base_family Font family. Default is "Poppins"
+#' @param base_family Font family. Default is "Exo"
 #' @param base_line_size Base line size
 #' @param base_rect_size Base rex size
 #' @import ggplot2
@@ -10,14 +10,14 @@
 #'
 #' @export
 #'
-theme_poppins <-
+theme_exo <-
   function(base_size = 12,
-             base_family = "Poppins",
+             base_family = "Exo",
              base_line_size = base_size / 22,
              base_rect_size = base_size / 22) {
     half_line <- base_size / 2
 
-    update_geom_defaults("text", list(family = "Poppins"))
+    update_geom_defaults("text", list(family = "Exo"))
 
     tm <-
       theme_light(
@@ -37,10 +37,10 @@ theme_poppins <-
   }
 
 
-#' Import Google Poppins font
+#' Import Google Exo font
 #' @export
-import_poppins <- function() {
-  ps_font_dir <- system.file("fonts", "poppins", package = "ggpmthemes")
+import_exo <- function() {
+  ps_font_dir <- system.file("fonts", "exo", package = "ggpmthemes")
 
   suppressWarnings(suppressMessages(extrafont::font_import(ps_font_dir, prompt = FALSE)))
 
