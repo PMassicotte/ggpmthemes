@@ -4,7 +4,7 @@
 \alias{theme_exo2}
 \title{A ggplot2 theme based on the Google Exo2 font.}
 \usage{
-theme_exo2(base_size = 12, base_family = "Exo2",
+theme_exo2(base_size = 12, base_family = "Exo 2",
   base_line_size = base_size/22, base_rect_size = base_size/22)
 }
 \arguments{
