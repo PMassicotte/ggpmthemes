@@ -15,7 +15,7 @@
   }
 
   fnt <- extrafont::fonttable()
-  if (!any(grepl("Poppins|Exo", fnt$FamilyName))) {
+  if (!any(grepl("Poppins|Exo|Exo2", fnt$FamilyName))) {
     packageStartupMessage("Poppins font was not found. Please install it with ggpmthemes::import_poppins().")
   }
 }

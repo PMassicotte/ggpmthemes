@@ -2,7 +2,9 @@
 
 export(equal_breaks)
 export(import_exo)
+export(import_exo2)
 export(import_poppins)
 export(theme_exo)
+export(theme_exo2)
 export(theme_poppins)
 import(ggplot2)

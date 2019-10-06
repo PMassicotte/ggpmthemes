@@ -4,7 +4,6 @@
 #' @param s Scaling factor (cf. multiplicative expand)
 #' @details Code copied from: https://stackoverflow.com/questions/28436855/change-the-number-of-breaks-using-facet-grid-in-ggplot2
 #'
-#' @return
 #' @export
 #'
 #' @examples
