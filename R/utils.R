@@ -11,10 +11,9 @@
 #' library(ggplot2)
 #'
 #' ggplot(mtcars, aes(x = disp, y = drat)) +
-#' geom_point() +
-#' facet_wrap(~cyl, scales = "free_x") +
-#' scale_x_continuous(breaks = equal_breaks(n = 4))
-#'
+#'   geom_point() +
+#'   facet_wrap(~cyl, scales = "free_x") +
+#'   scale_x_continuous(breaks = equal_breaks(n = 4))
 equal_breaks <- function(n = 3, s = 0.05) {
   function(x) {
     # rescaling
