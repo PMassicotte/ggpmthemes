@@ -3,7 +3,7 @@
 #' @param base_size Font size. Default at 12 pts.
 #' @param base_family Font family. Default is "Exo2"
 #' @param base_line_size Base line size
-#' @param base_rect_size Base rex size
+#' @param base_rect_size Base rect size
 #' @import ggplot2
 #'
 #' @inheritParams ggplot2::theme_light

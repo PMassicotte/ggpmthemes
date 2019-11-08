@@ -14,7 +14,7 @@ theme_exo(base_size = 12, base_family = "Exo",
 
 \item{base_line_size}{Base line size}
 
-\item{base_rect_size}{Base rex size}
+\item{base_rect_size}{Base rect size}
 }
 \description{
 A ggplot2 theme based on the Google Exo font.
