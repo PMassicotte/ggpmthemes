@@ -1,5 +1,7 @@
 ---
 output: github_document
+editor_options: 
+  chunk_output_type: console
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -29,7 +31,7 @@ You can install the development version from [GitHub](https://github.com/) with:
 # install.packages("devtools")
 devtools::install_github("PMassicotte/ggpmthemes")
 ```
-## Example
+## Examples
 
 ### Theme Poppins
 ```{r example}
@@ -60,5 +62,12 @@ p +
   theme_exo()
 ```
 
+### Scientific format
+
+```{r}
+ggplot(mtcars, aes(wt, mpg, label = rownames(mtcars))) +
+  geom_point() +
+  scale_x_continuous(labels = scientific_10x)
+```
 
 Please note that the 'ggpmthemes' project is released with a [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to this project, you agree to abide by its terms.

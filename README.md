@@ -21,7 +21,7 @@ You can install the development version from
 devtools::install_github("PMassicotte/ggpmthemes")
 ```
 
-## Example
+## Examples
 
 ### Theme Poppins
 
@@ -66,6 +66,16 @@ p +
 ```
 
 <img src="man/figures/README-unnamed-chunk-2-2.svg" width="100%" />
+
+### Scientific format
+
+``` r
+ggplot(mtcars, aes(wt, mpg, label = rownames(mtcars))) +
+  geom_point() +
+  scale_x_continuous(labels = scientific_10x)
+```
+
+<img src="man/figures/README-unnamed-chunk-3-1.svg" width="100%" />
 
 Please note that the ‘ggpmthemes’ project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to

@@ -16,4 +16,5 @@ BugReports: https://github.com/PMassicotte/ggpmthemes/issues
 Imports: 
     ggplot2,
     extrafont,
-    grDevices
+    grDevices,
+    scales
