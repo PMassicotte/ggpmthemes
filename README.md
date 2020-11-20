@@ -5,8 +5,8 @@
 
 <!-- badges: start -->
 
-[![Travis build
-status](https://travis-ci.org/PMassicotte/ggpmthemes.svg?branch=master)](https://travis-ci.org/PMassicotte/ggpmthemes)
+[![R build
+status](https://github.com/PMassicotte/ggpmthemes/workflows/R-CMD-check/badge.svg)](https://github.com/PMassicotte/ggpmthemes/actions)
 <!-- badges: end -->
 
 Simple R package with custom ggplot2 themes.
@@ -40,7 +40,6 @@ p +
 <img src="man/figures/README-example-1.svg" width="100%" />
 
 ``` r
-
 p +
   theme_exo2()
 ```
@@ -60,7 +59,6 @@ p +
 <img src="man/figures/README-unnamed-chunk-2-1.svg" width="100%" />
 
 ``` r
-
 p +
   theme_exo()
 ```
