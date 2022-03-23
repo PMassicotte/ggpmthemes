@@ -4,8 +4,12 @@
 \alias{theme_poppins}
 \title{A ggplot2 theme based on the Google Poppins font.}
 \usage{
-theme_poppins(base_size = 12, base_family = "Poppins",
-  base_line_size = base_size/22, base_rect_size = base_size/22)
+theme_poppins(
+  base_size = 12,
+  base_family = "Poppins",
+  base_line_size = base_size/22,
+  base_rect_size = base_size/22
+)
 }
 \arguments{
 \item{base_size}{Font size. Default at 12 pts.}

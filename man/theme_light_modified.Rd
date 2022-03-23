@@ -4,8 +4,12 @@
 \alias{theme_light_modified}
 \title{A ggplot2 theme light modified.}
 \usage{
-theme_light_modified(base_size = 12, base_family,
-  base_line_size = base_size/22, base_rect_size = base_size/22)
+theme_light_modified(
+  base_size = 12,
+  base_family,
+  base_line_size = base_size/22,
+  base_rect_size = base_size/22
+)
 }
 \arguments{
 \item{base_size}{Font size. Default at 12 pts.}

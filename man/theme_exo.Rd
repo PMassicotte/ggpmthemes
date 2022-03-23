@@ -4,8 +4,12 @@
 \alias{theme_exo}
 \title{A ggplot2 theme based on the Google Exo font.}
 \usage{
-theme_exo(base_size = 12, base_family = "Exo",
-  base_line_size = base_size/22, base_rect_size = base_size/22)
+theme_exo(
+  base_size = 12,
+  base_family = "Exo",
+  base_line_size = base_size/22,
+  base_rect_size = base_size/22
+)
 }
 \arguments{
 \item{base_size}{Font size. Default at 12 pts.}
